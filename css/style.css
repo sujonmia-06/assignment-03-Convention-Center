@@ -1,0 +1,86 @@
+.zindex {
+  z-index: 3;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+/************************
+*****slider overlay******
+************************/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #080d15;
+  opacity: 0.7;
+}
+
+/***************************** 
+*****navbar custom height*****
+*****************************/
+.nav-bar {
+  height: 80px;
+}
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
+.btn-choose-plan {
+  color: #3f87f5;
+  font-weight: 600;
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color: #f496d250;
+  border-radius: 24px;
+}
+
+.card-3 {
+  padding: 10px;
+  height: 480px;
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+}
+
+.btn-choose-plan-light {
+  color: #3f87f5;
+  font-weight: 600;
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+footer {
+  height: 280px;
+  background-color: black;
+}
+
+/******************************************** 
+**********slider titles responsive*********** 
+*********************************************/
+@media only screen and (max-width: 425px) {
+  .carousel-caption h1 {
+    font-size: 17px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+  .order {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .brand-responsive {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .carousel-caption p {
+    font-size: 20px;
+  }
+}
